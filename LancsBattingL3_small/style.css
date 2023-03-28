@@ -1,0 +1,176 @@
+
+.logobackground{
+  background-color: rgb(255, 255, 255);
+  width: 140px;
+  height: 210px;
+  position: absolute;
+  top: 760px;
+  left: 260px;
+  z-index: 1;
+}
+.batterbackground{
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 760px;
+  left: 400px;
+  width: 920px;
+  height: 210px;
+  z-index: 1;
+}
+.statsbackground{
+  background-color: rgb(165, 14, 14);
+  position: absolute;
+  top: 850px;    
+  left: 400px;
+  width: 920px;
+  height: 120px;
+  z-index: 1;
+}
+.runsbackground{
+  background-color: rgb(31, 11, 209);
+  position: absolute;
+  top: 760px;
+  left: 1320px;
+  width: 200px;
+  height:  210px;
+  z-index: 1;
+}
+
+.teamlogo img {
+    width: 120px;
+    height: 112px;
+    position: absolute;
+    top: 780px;
+    left: 270px;
+    z-index: 2;
+  }
+
+
+  h5#BattersName {
+    font-size: 2.4em;
+    position: absolute;
+    top: 760px;
+    left: 407px;
+    width: 900px;
+    height: 210px;
+    z-index: 2;
+
+}
+  h5#balls {
+    font-size: 1.3em;
+    position: absolute;
+    top: 850px;
+    left: 407px;
+    width: 700px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#Stat1 {
+    font-size: 1.5em;
+    position: absolute;
+  
+    top: 905px;
+    left: 407px;
+    width: 700px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#fours {
+    font-size: 1.5em;
+    position: absolute;
+
+    top: 850px;
+    left: 550px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#Stat2 {
+    font-size: 1.5em;
+    position: absolute;
+
+    top: 905px;
+    left: 550px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#six {
+    font-size: 1.5em;
+    position: absolute;
+    top: 850px;
+    left: 700px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#Stat3 {
+    font-size: 1.5em;
+    position: absolute;
+  
+    top: 905px;
+    left: 700px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#strikeRate {
+    font-size: 1.5em;
+    position: absolute;
+
+    top: 850px;
+    left: 850px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#Stat4 {
+    font-size: 1.5em;
+    position: absolute;
+
+    top: 905px;
+    left: 850px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#minutes {
+    font-size: 1.5em;
+    position: absolute;
+
+    top: 850px;
+    left: 1100px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#Stat5 {
+    font-size: 1.5em;
+    position: absolute;
+
+    top: 905px;
+    left: 1100px;
+    width: 400px;
+    height: 100px;
+    z-index: 2;
+  }
+  h5#runs {
+    font-size: 2.5em;
+    position: absolute;
+    top: 800px;
+    left: 1330px;
+    width: 200px;
+    height: 100px;
+    z-index: 2;
+  }
+
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  
+  .fade-enter,
+  .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  
